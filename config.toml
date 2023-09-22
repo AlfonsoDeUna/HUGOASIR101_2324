@@ -1,0 +1,65 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Mi Nuevo Sitio de ASIR IAW'
+theme = "paper"
+
+[menu]
+
+  [[menu.main]]
+    name = "Inicio"
+    url = "/"
+    weight = 10
+  
+  [[menu.main]]
+    name = "Blog"
+    url = "/post/"
+    weight = 20
+  
+  [[menu.main]]
+    name = "Acerca de"
+    url = "/about/"
+    weight = 30
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
+
+[params]
+
+  # color style
+  color = 'linen'   
+# header social icons
+  twitter = 'YOUR_TWITTER_ID'               # twitter.com/YOUR_TWITTER_ID
+  github = 'YOUR_GITHUB_ID'                 # github.com/YOUR_GITHUB_ID
+  instagram = 'YOUR_INSTAGRAM_ID'           # instagram.com/YOUR_INSTAGRAM_ID
+  linkedin = 'YOUR_LINKEDIN_ID'             # linkedin.com/in/YOUR_LINKEDIN_ID
+  mastodon = 'YOUR_MASTODON_LINK'           # e.g. 'https://mastodon.instance/@xxx'
+  rss = true                                # show rss icon
